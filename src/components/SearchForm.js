@@ -21,7 +21,8 @@ const SearchForm = () => {
     <section className='section search'>
       <form className='search-form' onSubmit={handleSubmit}>
         <div className='form-control'>
-          <lable htmlFor="name">Search your favorite cocktail</lable>
+        <h2>Search your favorite cocktail in the search</h2>
+          <lable htmlFor="name">Search</lable>
           <input type='text' id='name' ref={searchValue} onChange={(e)=>setSearchTerm(e.target.value)}/>
         </div>
       </form>
